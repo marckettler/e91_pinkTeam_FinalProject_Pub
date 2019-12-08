@@ -9,7 +9,7 @@ EXPOSE  80
 
 # Copy public-html folder containing index.html and img/mrpink.gif from the host to 
 # /usr/local/apache2/htdocs/ on the container.
-COPY    ./public-html /usr/local/apache2/htdocs/
+COPY    ./public-html/ /usr/local/apache2/htdocs/
 
 # If everything went fine then docker
 # will package the container as a new image 
